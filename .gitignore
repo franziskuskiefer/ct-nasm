@@ -1,0 +1,4 @@
+div
+*.lst
+*.o
+result.txt

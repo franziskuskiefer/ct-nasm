@@ -63,7 +63,7 @@ divide:
         mov     rdx, 0                  ; The remainder has to be 0 for div to work.
         mov     rax, [a]
         mov     rcx, [b]
-        mul     rcx                     ; eax is now a/b
+        div     rcx                     ; eax is now a/b
         mov     [result], rax           ; Store the result. We ignore rdx (remainder).
         cpuid
         rdtsc
