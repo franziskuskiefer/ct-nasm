@@ -1,3 +1,4 @@
+; Div timings
 ; Reading list for this:
 ;  * https://www-ssl.intel.com/content/dam/www/public/us/en/documents/white-papers/ia-32-ia-64-benchmark-code-execution-paper.pdf
 ;  * http://cs.lmu.edu/~ray/notes/nasmtutorial/

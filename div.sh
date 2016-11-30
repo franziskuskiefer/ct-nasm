@@ -5,10 +5,5 @@ if [ "$1" == "clean" ]; then
     exit
 fi
 
-os=$(uname -o)
-if [[ "$os" == *"Linux"* ]]; then
-    nasm -f elf64 -l div.lst div.asm
-elif [[ "$os" == *"Darwin"* ]]; then
-    nasm -f macho64 -l div.lst div.asm
-fi
+nasm -f elf64 -l div.lst div.asm
 gcc -m64 -o div div.o
