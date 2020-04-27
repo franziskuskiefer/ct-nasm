@@ -1,0 +1,9 @@
+[package]
+name = "ct_rust"
+version = "0.0.1"
+authors = ["Franziskus Kiefer <franziskuskiefer@gmail.com>"]
+edition = "2018"
+description = "CT Rust experiments"
+license = "Apache-2.0"
+repository = "https://github.com/franziskuskiefer/ct-rust"
+keywords = ["constant-time"]
